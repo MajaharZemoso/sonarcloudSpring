@@ -3,3 +3,8 @@
 2023-05-28 19:08:16,870 INFO com.dtodemo.controllers.AppController [http-nio-8080-exec-2] This is info
 2023-05-28 19:08:16,870 WARN com.dtodemo.controllers.AppController [http-nio-8080-exec-2] This is warn
 2023-05-28 19:08:16,871 ERROR com.dtodemo.controllers.AppController [http-nio-8080-exec-2] This is just error
+2023-05-28 19:23:20,100 INFO org.springframework.web.servlet.DispatcherServlet [main] Initializing Servlet 'dispatcher'
+2023-05-28 19:23:21,781 INFO org.springframework.web.servlet.DispatcherServlet [main] Completed initialization in 1672 ms
+2023-05-28 19:23:23,985 INFO com.dtodemo.controllers.AppController [http-nio-8080-exec-2] This is info
+2023-05-28 19:23:23,985 WARN com.dtodemo.controllers.AppController [http-nio-8080-exec-2] This is warn
+2023-05-28 19:23:23,985 ERROR com.dtodemo.controllers.AppController [http-nio-8080-exec-2] This is just error
