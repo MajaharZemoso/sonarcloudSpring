@@ -2,7 +2,7 @@
 <configuration>
     <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
-    <property name="LOG_FILE" value="D:/Spring/projects/springlogger/src/main/resources/logs/app.log"/>
+    <property name="LOG_FILE" value="D:/temp/sonarcloudSpring/src/main/resources/logs/app.log"/>
 
     <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_FILE}</file>
