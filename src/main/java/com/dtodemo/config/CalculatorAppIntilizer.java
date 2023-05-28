@@ -12,13 +12,11 @@ public class CalculatorAppIntilizer extends AbstractAnnotationConfigDispatcherSe
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        Class aClass[] = { CalculatorAppConfig.class };
-        return aClass;
+       return new Class[]{CalculatorAppConfig.class};
     }
 
     @Override
     protected String[] getServletMappings() {
-        String arr[] = { "/" };
-        return arr;
+        return new String[]{"/"};
     }
 }

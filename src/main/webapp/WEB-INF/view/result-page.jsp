@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <style>
+        <title>Result-page</title>
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
@@ -29,7 +31,7 @@
     </style>
 </head>
 <body>
-    <h1 align="center">Data Transfer Object</h1>
+    <h1>Data Transfer Object</h1>
     <hr/>
     <%
        String firstNumber = request.getParameter("number1");
@@ -39,12 +41,10 @@
     %>
 
     <div>
-        <center>
             <p>First Number: <%= firstNumber %></p>
             <p>Second Number: <%= secondNumber %></p>
             <p>GMail: <%= gmail %></p>
             <p>Mobile Number: <%= mobile %></p>
-        </center>
     </div>
 </body>
 </html>

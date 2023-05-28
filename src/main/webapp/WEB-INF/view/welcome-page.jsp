@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Welcome-page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
